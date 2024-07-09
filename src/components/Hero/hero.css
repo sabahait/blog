@@ -1,0 +1,90 @@
+.squares-container1 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 130%; /* Adjust this to position squares lower */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -75px; /* Adjust this to position squares half inside the image */
+  margin-bottom: 400px;
+}  
+.square {
+width: 300px; /* Adjust width */
+padding-bottom: 30px;
+background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+color: black;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+margin: 0 15px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+text-align: left; /* Align text to left */
+backdrop-filter: blur(10px); /* Optional: add blur effect */
+}
+.square h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.square p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.square a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.square a:hover {
+  text-decoration: underline;
+} 
+.ss{
+  padding-top: 12rem;
+  padding-bottom:   1px;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+} 
+.photo1{
+ padding: 2rem;
+ text-align: center;
+ place-items: center; 
+ margin-left:470px;
+ width: 750px;
+height: auto;
+
+}
+.button-line {
+  position: absolute;
+  bottom: 0; /* Positionnez la ligne en bas du bouton */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%; /* Ajustez la largeur de la ligne */
+  height: 2px; /* Ajustez l'épaisseur de la ligne */
+  background-color: #fff; /* Couleur de la ligne */
+}
+.custom-quote-link {
+  position: relative; /* Permet de positionner la ligne à l'intérieur du lien */
+  display: inline-block;
+  background-color: #ffcc00;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
+
+.custom-quote-link .link-line {
+  position: absolute;
+  bottom: 0; /* Positionnez la ligne en bas du lien */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%; /* Ajustez la largeur de la ligne */
+  height: 2px; /* Ajustez l'épaisseur de la ligne */
+  background-color: #fff; /* Couleur de la ligne */
+}

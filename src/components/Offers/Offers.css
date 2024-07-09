@@ -1,0 +1,25 @@
+.centent{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+}
+.centent p{
+    color:royalblue;
+    text-align:center;
+}
+.centent h3{
+    font-size: 40px;
+    font-style:unset;
+    text-align: center;
+}
+.centent h2{
+    font-size: 30px;
+    font-style: unset;
+    text-align: center;
+}
+.centent h1{
+        font-size: 25px;
+        font-style:italic;
+        text-align: center;
+}

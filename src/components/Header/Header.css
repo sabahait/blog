@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 44px;
+    background-color: rgb(227, 231, 231);
+  }
+  
+  .header-image img {
+    width: 100%;
+    height: 500px;
+  }
+  
+  .header-content {
+    background-color: #fcb900;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    height: 500px;
+  }
+  
+  .header-content h1 {
+    margin-top: 100px;
+    font-size: 3rem;
+    margin-left: 100px;
+  }
+  
+  .header-content p {
+    font-size: 1rem;
+    margin-left: 100px;
+  }
+  
+  .header-content button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    margin-top: 70px;
+    margin-left: 100px;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+  }
+  .offers {
+    text-align: center;
+    color: black;
+    margin-top: 98px;
+  }
+  
+  .offers h2-container {
+    display: flex;
+    justify-content: center;
+    padding-right: 400px;
+
+  }
+  
+  .offers h2 {
+    font-size: 2rem;
+    padding-right: 600px;
+  }
+  

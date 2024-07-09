@@ -1,0 +1,94 @@
+/* Section1.css */
+
+.image-container {
+    position: relative;
+    width: 100%;
+   /* Adjust according to your needs */
+    margin: auto; /* Center the container */
+    overflow: hidden;
+    border-radius: 0 0 50% 50%; /* Add border-radius for a circular bottom */
+    perspective: 1000px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container */
+    display: block; /* Remove any default inline spacing */
+    transform: rotateX(10deg); /* Ajustez cette valeur pour contrôler l'angle de la rotation */
+  transition: transform 0.5s;
+  }
+  .image-container:hover img {
+    transform: rotateX(0deg); /* Retourne l'image à la normale au survol */
+  }
+ 
+  .text-content h1{
+    flex: 1;
+    padding-top: 50px;
+    padding-left: 300px;
+    font-size: 35px;
+    padding-bottom: 30px;
+  }
+  .text-content p{
+    flex: 1;
+    text-decoration:wavy;
+    margin-left: 300px;
+    text-align: left; 
+    border: 2px solid #000; /* Border of the box */
+    padding: 10px; /* Space inside the box */
+    display: inline-block; /* To keep the box around the text */
+    background-color: #f9f9f9; /* Background color of the box */
+    margin-bottom: 150px;
+    margin-right: 100px;
+  }
+  .image img{
+    padding-top: 150px;
+    padding-right: 150px;
+    object-fit: cover;
+    
+  }
+  .cta-button {
+    background-color: #FFCC00; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border: none;
+    border-radius: 50px; /* Boutons arrondis */
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    flex: 1;
+    margin-left: 280px;
+    Padding-right: 50px;
+  }
+  .cta-button:hover {
+    background-color: #ffb300; /* Changement de couleur au survol */
+  }
+  .statistics {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .stat-item1 {
+    text-align: center;
+    width: 150px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  .stat-item {
+    text-align: center;
+    width: 150px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .stat-item h1{
+    font-size:30px;
+  }
+  .stat-item1 h1{
+    font-size:30px;
+  }
+  

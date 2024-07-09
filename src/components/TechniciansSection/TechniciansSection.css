@@ -1,0 +1,65 @@
+.technicians-section1 {
+    text-align: left;
+    padding: 20px;
+}
+
+.header1 h2 {
+    margin-left: 300px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: oblique;
+   margin-bottom: 40px;
+}
+
+.header1 p {
+    margin-left: 300px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.image-container1 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.features1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-right: 200px;
+}
+
+.feature1 {
+    width: 150%;
+    text-align:left;
+    padding-left: 240px;   
+}
+.feature1 img{
+    margin-bottom: 25px;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+
+.feature1 h3 {
+     text-align: center;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-style:oblique;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.feature1 p {
+    font-size: 14px;
+    text-align: center;
+    color: rgb(129, 134, 134);
+
+}
+
