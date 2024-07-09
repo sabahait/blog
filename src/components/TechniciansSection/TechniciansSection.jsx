@@ -12,8 +12,13 @@ const TechniciansSection = () => {
                 <tr>
                     <td>
                     <div className="header1">
+<<<<<<< HEAD
                 <h2>Des techniciens agréés audités et évalués après chaque intervention</h2>
                 <p>Nos techniciens locaux agréés interviennent partout en Nouvelle-Aquitaine, avec les meilleures garanties de prestation de pose.</p>
+=======
+                <h2>Des techniciens agréés <br></br>audités et évalués après <br></br>chaque intervention</h2>
+                <p>Nos techniciens locaux agréés interviennent partout en Nouvelle-<br></br>Aquitaine,<br></br> avec les meilleures garanties de prestation de pose.</p>
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
             </div>
                     </td>
                     <td>
@@ -29,18 +34,30 @@ const TechniciansSection = () => {
             <div className="feature1">
                     <img src={Photo24}alt="" className='image1'/>
                     <h3 className='H3q'>Certification RGE</h3>
+<<<<<<< HEAD
                     <p className='p1'>Tous nos techniciens détiennent la certification<br></br> RGE afin de vous faire bénéficier des aides<br></br> d’Etat 
+=======
+                    <p className='p1'>Tous nos techniciens détiennent la certification<br></br> RGE afin de vous faire bénéficier <br></br>des aides<br></br> d’Etat 
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
 et de vous offrir la meilleure <br></br>qualité de pose possible</p>
                 </div>
                 <div className="feature1">
                     <img src={Photo25} alt="" className='image2' />
                     <h3 >Assurance décennale</h3>
+<<<<<<< HEAD
                     <p  className='p2'>Pendant les 10 années suivant l’installation, seront<br></br>  réparés tous dommages qui n’étaient pas décelables  <br></br>lors de la réception des travaux et qui compromettraient<br></br> la solidité du bâti ou qui le rendraient inhabitable <br></br> ou impropre à son usage</p>
+=======
+                    <p  className='p2'>Pendant les 10 années suivant l’installation, seront<br></br>réparés tous dommages qui n’étaient pas<br></br> décelables<br></br>lors de la réception des travaux et qui<br></br>compromettraient la solidité du bâti ou qui le<br></br>rendraient inhabitable ou impropre à son usage</p>
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
                 </div>
                 <div className="feature1">
                     <img src={Photo26} alt="" className='image3' />
                     <h3>Visites de contrôle</h3>
+<<<<<<< HEAD
                     <p  className='p3'>Nos équipes contrôlent aléatoirement la qualité<br></br> des installations réalisées et interrogent systématiquement<br></br> les clients 1 mois après la mise en service pour connaître<br></br> leur satisfaction.</p>
+=======
+                    <p  className='p3'>Nos équipes contrôlent aléatoirement la qualité<br></br>des installations réalisées et interrogent<br></br>systématiquement les clients 1 mois après la<br></br> mise<br></br>en service pour connaître leur satisfaction.</p>
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
                 </div>
             </div>
         </div>

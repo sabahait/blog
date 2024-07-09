@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .experts-selection {
   text-align: center;
   padding: 40px 20px;
@@ -85,3 +86,78 @@
     max-width: 100px;
   }
 }
+=======
+.expert-selection {
+    padding: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .expert-selection h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .expert-selection p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 0 10px;
+    text-align: left;
+  }
+  
+  .product h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .product ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product ul li {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .stars {
+    color: #ffdd00;
+  }
+  
+  .product p {
+    font-size: 0.9rem;
+    margin: 10px 0;
+  }
+  
+  .guarantees {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  .logos {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .logos img {
+    height: 50px;
+  }
+  
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6

@@ -11,7 +11,11 @@ const Header = () => {
       <div className="header-content">
         <h1>Le photovoltaïque au juste prix, sans compromis sur la qualité</h1>
         <p>Avec les offres Sunline, vous bénéficiez du prix le plus juste pour un matériel de qualité et des garanties étendues</p>
+<<<<<<< HEAD
         <button className='zez'>Je demande un RDV avec un conseiller</button>
+=======
+        <button>Je demande un RDV avec un conseiller</button>
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
         <div className="offers">
       <div className="h2-container">
         <h2>Nos offres pour vous</h2>

@@ -44,6 +44,7 @@
     margin-top: 20px;
     margin-bottom: 120px;
   }
+<<<<<<< HEAD
   @media only screen and (max-width: 800px) {
     .Contentt h1{
       font-size: 1.6rem;
@@ -75,3 +76,5 @@
   margin-bottom: 120px;
 }
   }
+=======
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6

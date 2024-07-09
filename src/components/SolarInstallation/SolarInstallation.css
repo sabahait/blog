@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 .solar-installationn {
     padding: 70px;
+=======
+.solar-installation {
+    padding: 50px;
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     text-align: center;
     color: #333;
     font-size: 25px;
@@ -7,17 +12,29 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
+<<<<<<< HEAD
   .solar-installationn h1 {
+=======
+  .solar-installation h1 {
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     font-size: 2rem;
     margin-bottom: 10px;
   }
   
+<<<<<<< HEAD
   .solar-installationn p {
+=======
+  .solar-installation p {
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     font-size: 1rem;
     margin-bottom: 20px;
   }
   
+<<<<<<< HEAD
   .contentt {
+=======
+  .content {
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,6 +42,7 @@
 
   }
   
+<<<<<<< HEAD
   .imaged-container img {
     max-width: 50%;
     height: auto;
@@ -33,6 +51,15 @@
   }
   
    .text-containeres {
+=======
+  .image-container img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 300px;
+  }
+  
+  .text-container {
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     background-color:gainsboro;
     padding: 20px;
     border-radius: 8px;
@@ -41,12 +68,20 @@
     max-width: 500px;
   }
   
+<<<<<<< HEAD
   .text-containeres h2 {
+=======
+  .text-container h2 {
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     font-size: 1.5rem;
     margin-bottom: 10px;
   }
   
+<<<<<<< HEAD
   .text-containeres p {
+=======
+  .text-container p {
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     font-size: 1rem;
     margin-bottom: 20px;
   }
@@ -66,6 +101,7 @@
   .s{
     margin-right: 310px;
   }
+<<<<<<< HEAD
   @media only screen and (max-width: 800px) {
     .contentt {
       display:block;
@@ -91,4 +127,6 @@
       margin-right: 200px;
     }
   }
+=======
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
   

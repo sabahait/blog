@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import GarFooter from '../../Gar-Footer/Gar-Footer'
 import TechniciansSection from '../../TechniciansSection/TechniciansSection';
 import ExempleGar from '../../ExempleGar/ExempleGar';
@@ -22,6 +23,14 @@ const PageGaranties = () => {
         <FAQSection/>
     </div>
     </Layout>
+=======
+
+const PageGaranties = () => {
+  return (
+    <div>
+        
+    </div>
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
   )
 }
 

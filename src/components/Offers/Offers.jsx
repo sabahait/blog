@@ -3,7 +3,11 @@ import '../Offers/Offers.css'
 const Offers = () => {
   return (
     <div>
+<<<<<<< HEAD
       <div className='cententE'>
+=======
+      <div className='centent'>
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
             <p>A chacun son offre clé en main</p>
             <h3>
               Des offres de panneaux solaires qui s'adaptent à vos besoins et à votre budget

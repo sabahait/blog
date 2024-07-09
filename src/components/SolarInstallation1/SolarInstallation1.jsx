@@ -6,7 +6,11 @@ const SolarInstallation = () => {
   return (
     <div className="solar-installation">
       <h1>Une installation solaire qui vous protège <br></br>des coupures de courant</h1>
+<<<<<<< HEAD
       <p>Une centrale solaire avec une solution de stockage intégrée permettant de se prémunir des coupures de courant</p>
+=======
+      <p>Une centrale solaire avec une solution de stockage intégrée permettant de se prémunir des coupures de <br></br>courant</p>
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
       <div className="content">
         <div className="image-container">
           <img src={photo8} alt="Solar Panels" />

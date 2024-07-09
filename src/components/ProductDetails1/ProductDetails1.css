@@ -1,0 +1,97 @@
+.product-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #f9f9f9;
+  color: #333;
+  padding-right: 300px;
+  padding-left: 300px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.left-column {
+  flex: 1;
+  text-align: left;
+}
+
+.left-column h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.left-column p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.left-column img {
+  width: 650px;
+  height: 480px;
+}
+
+.right-column h2 {
+  margin-top: 30px;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.right-column p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.right-column button{
+  background-color: #fcb900;
+  color: white;
+  border-radius: 4px;
+  padding: 15px;
+  margin-left: 120px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.small-text {
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+  color: dodgerblue;
+  text-align: center;
+}
+
+.right-column h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.right-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.right-column ul li {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.right-column ul li::before {
+  content: '✔';
+  color: green;
+  margin-right: 10px;
+}
+
+.right-column {
+  background-color:#fff;
+  position: relative;
+  right: 20px;
+ width: 400px;
+}

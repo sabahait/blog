@@ -5,11 +5,18 @@
     font-size: 25px;
     font-style: oblique;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+<<<<<<< HEAD
     
   }
   
   .solar-installation h1 {
     font-size: 1.6rem;
+=======
+  }
+  
+  .solar-installation h1 {
+    font-size: 2rem;
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     margin-bottom: 10px;
   }
   
@@ -29,9 +36,13 @@
   .image-container img {
     max-width: 50%;
     height: auto;
+<<<<<<< HEAD
     margin-left: 200px;
     margin-right: 150px;
 
+=======
+    margin-left: 300px;
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
   }
   
   .text-container {
@@ -41,8 +52,13 @@
     margin-right: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 500px;
+<<<<<<< HEAD
     
   }
+=======
+  }
+  
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
   .text-container h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
@@ -68,6 +84,7 @@
   .s{
     margin-right: 310px;
   }
+<<<<<<< HEAD
   @media only screen and (max-width: 800px) {
     .content {
       display:block;
@@ -93,4 +110,6 @@
       
     }
   }
+=======
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
   

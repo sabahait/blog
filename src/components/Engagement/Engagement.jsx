@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Engagement/Engagement.css'
+<<<<<<< HEAD
 import { useNavigate } from 'react-router-dom';
 const Engagement = () => {
   const navigate = useNavigate();
@@ -7,6 +8,11 @@ const Engagement = () => {
   const handleButtonClick = () => {
     navigate('/allblogs');
   };
+=======
+
+const Engagement = () => {
+    
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
   return (
     
     
@@ -23,7 +29,11 @@ const Engagement = () => {
             <li>Un chargé des démarches administrative dédié pour suivre<br></br>
             l’avancée de votre dossier</li>
         </ul>
+<<<<<<< HEAD
         <button onClick={handleButtonClick}> Nos Engagement</button>
+=======
+        <button>Nos Engagement</button>
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
       </div>
     </div>
   )

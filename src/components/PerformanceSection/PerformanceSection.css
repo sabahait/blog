@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 .performance-section111 {
+=======
+.performance-section {
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     display: flex;
     justify-content: space-between;
     padding: 50px;
@@ -6,28 +10,46 @@
     color: #333;
   }
   
+<<<<<<< HEAD
   .left111 {
+=======
+  .left {
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     flex: 1;
     text-align: left;
   }
   
+<<<<<<< HEAD
   .left111 h2 {
     font-size: 2rem;
+=======
+  .left h2 {
+    font-size: 3rem;
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     margin-bottom: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
+<<<<<<< HEAD
   .stats111 {
+=======
+  .stats {
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     display: flex;
     justify-content: space-between;
   }
   
+<<<<<<< HEAD
   .stat111 {
+=======
+  .stat {
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     background-color:#f9f9f9;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     flex: 1;
+<<<<<<< HEAD
     margin-right: 40px;
     width: 30px;
   }
@@ -37,10 +59,22 @@
   }
   
   .S111{
+=======
+    margin-right: 20px;
+    width: 100px;
+  }
+  
+  .stat:last-child {
+    margin-right: 0;
+  }
+  
+  .S{
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     font-size: 1rem;
     font-weight: bold;
    
   }
+<<<<<<< HEAD
   .sa111{
     text-align:left;
     margin-left: 20px;
@@ -48,6 +82,15 @@
   }
   
   .right111{
+=======
+  .sa{
+    text-align:left;
+    margin-left: 150px;
+   
+  }
+  
+  .right{
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     flex: 1;
     display: flex;
     justify-content: center;
@@ -55,7 +98,11 @@
     
   }
   
+<<<<<<< HEAD
   .info-box111 {
+=======
+  .info-box {
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     background-color: #001f3f;
     color: #fff;
     padding: 20px;
@@ -66,21 +113,34 @@
     height: 300px;
   }
   
+<<<<<<< HEAD
   .info-box111 h3 {
+=======
+  .info-box h3 {
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     font-size: 1.5rem;
     margin-bottom: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
+<<<<<<< HEAD
   .info-box111 p {
     font-size: 1.5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .info-box111 h1{
+=======
+  .info-box p {
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .info-box h1{
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     text-align: left;
     font-size:3rem ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
+<<<<<<< HEAD
   @media only screen and (max-width: 800px) {
     .performance-section111 {
       display: block;
@@ -95,4 +155,6 @@
       justify-content: space-between;
     }
   }
+=======
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
   

@@ -3,6 +3,7 @@ import '../Section/Section.css';
 import ps1 from '../../assets/website/icon1.jpg';
 import ps2 from '../../assets/website/icon2.jpg';
 import ps3 from '../../assets/website/icon3.jpg';
+<<<<<<< HEAD
 import { useNavigate } from 'react-router-dom';
 
 const Section = () => {
@@ -11,6 +12,9 @@ const Section = () => {
   const ButtonClick = () => {
     navigate('/Vuepage');
   };
+=======
+const Section = () => {
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
   return (
     <div className="section">
          <h1>Reposez-vous sur notre expertise</h1>
@@ -50,7 +54,11 @@ const Section = () => {
         </div>
       </div>
       
+<<<<<<< HEAD
       <button className="cta-buttonn" onClick={ButtonClick}>Demander un devis personnalisé &gt;&gt;</button>
+=======
+      <button className="cta-button">Demander un devis personnalisé &gt;&gt;</button>
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     </div>
   );
 };

@@ -28,7 +28,11 @@ const Guarantees = () => {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
       <button className="btn">Nos garanties </button>
+=======
+      <button className="button1">Nos garanties </button>
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     </div>
   );
 };

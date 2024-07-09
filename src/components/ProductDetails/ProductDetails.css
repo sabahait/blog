@@ -1,4 +1,5 @@
 .product-details {
+<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
   padding: 50px;
@@ -8,13 +9,27 @@
   padding-left: 300px;
   padding-top: 100px;
   padding-bottom: 100px;
+=======
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f9f9f9;
+    color: #333;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
   }
   
   .left-column {
     flex: 1;
     text-align: left;
+<<<<<<< HEAD
     margin-right: px;
     width: 1000px;
+=======
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
   }
   
   .left-column h1 {
@@ -48,6 +63,7 @@
     margin-left: 40px;
   }
   
+<<<<<<< HEAD
   .devis{
     background-color: orangered;
     color: white;
@@ -65,6 +81,23 @@
     color: dodgerblue;
     margin-left: 20px;
     margin-right: 35px;
+=======
+  .right-column button{
+    background-color: #fcb900;
+    color: white;
+    border-radius: 4px;
+    padding: 15px;
+    margin-left: 120px;
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .small-text {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    color: dodgerblue;
+    text-align: center;
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
   }
   
   .right-column h3 {
@@ -96,6 +129,7 @@
   .right-column {
     background-color:#fff;
     position: relative;
+<<<<<<< HEAD
    margin-left: 100px;
    width: 300px;
   }
@@ -124,3 +158,9 @@
       width: 400px;
     }
   }
+=======
+    right: 20px;
+   width: 400px;
+  }
+  
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6

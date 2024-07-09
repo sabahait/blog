@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import { BrowserRouter as Router, Route, Routes,Navigate } from 'react-router-dom';
 import MainPage from './components/Pages/MainPage/MainPage';
 import OfferPage from './components/Pages/OfferPage/OfferPage';
@@ -20,6 +21,23 @@ const App = () => {
     <MyState>
     <Router>
        
+=======
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import MainPage from '../src/components/Pages/MainPage/MainPage';
+import OfferPage from '../src/components/Pages/OfferPage/OfferPage';
+import Navbar from '../src/components/Navbar/Navbar';
+import Footer from '../src/components/Footer/Footer';
+import PagesSuneco from '../src/components/Pages/PAGESUNECO/PAGESUNECO';
+import PageSunPrime from '../src/components/Pages/PAGESUNPRIME/PageSunPrime'
+import PageGaranties from '../src/components/Pages/PAGEGARANTIES/PageGaranties';
+import PageContact from '../src/components/Pages/PageContact/PageContact';
+
+const App = () => {
+  return (
+    <Router>
+      <div>
+        <Navbar />
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/offers" element={<OfferPage />} />
@@ -27,6 +45,7 @@ const App = () => {
           <Route path="/PageSunPrime" element={<PageSunPrime />} />
           <Route path="/PageGaranties" element={<PageGaranties />} />
           <Route path="/PageContact" element={<PageContact />} />
+<<<<<<< HEAD
           <Route path="/allblogs" element={<AllBlogs />} />
           <Route path="/adminlogin" element={<AdminLogin />} />
           <Route path="/Vuepage" element={<Vuepage />} />
@@ -41,10 +60,17 @@ const App = () => {
       <Toaster/>
     </Router>
     </MyState>
+=======
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
   );
 };
 
 export default App;
+<<<<<<< HEAD
 export const ProtectedRouteForAdmin = ({ children }) => {
   const user = JSON.parse(localStorage.getItem('user'))
   if (user?.user?.email === "sabahaitskik@gmail.com") {
@@ -55,3 +81,5 @@ export const ProtectedRouteForAdmin = ({ children }) => {
   }
 }
 
+=======
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6

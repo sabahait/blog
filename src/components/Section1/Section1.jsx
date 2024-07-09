@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import photo4 from '../../assets/website/photo4.jpg'
 import '../Section1/Section1.css'
 import { useNavigate } from 'react-router-dom';
@@ -12,6 +13,17 @@ const handlButtonClic = () => {
   return (
     <div className='container2'>
      
+=======
+import photo3 from '../../assets/website/photo3.jpg'
+import photo4 from '../../assets/website/photo4.jpg'
+import '../Section1/Section1.css'
+const Section1 = () => {
+  return (
+    <div className=''>
+      <div className="image-container W-full h-full">
+        <img src={photo3} alt="3D Effect" />
+      </div>
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
       <table >
             <tr>
                 <td>
@@ -27,7 +39,11 @@ const handlButtonClic = () => {
             compromis entre prix, rentabilité et performance.
           </p>
           <br></br>
+<<<<<<< HEAD
                 <button onClick={handlButtonClic} className="cta-buttonED" >Découvrir Garanties</button>
+=======
+                <button className="cta-button">Découvrir Garanties</button>
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
           </div>
             </td>
                 <td className='image'>

@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 .cententE{
+=======
+.centent{
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     justify-content: center;
     align-items: center;
     text-align: center;
     padding-top: 80px;
 }
+<<<<<<< HEAD
 .cententE p{
     color:royalblue;
     text-align:center;
@@ -33,3 +38,24 @@
         margin-left: 40px;
     }
 }
+=======
+.centent p{
+    color:royalblue;
+    text-align:center;
+}
+.centent h3{
+    font-size: 40px;
+    font-style:unset;
+    text-align: center;
+}
+.centent h2{
+    font-size: 30px;
+    font-style: unset;
+    text-align: center;
+}
+.centent h1{
+        font-size: 25px;
+        font-style:italic;
+        text-align: center;
+}
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6

@@ -30,9 +30,15 @@
     margin-left: 100px;
   }
   
+<<<<<<< HEAD
   .zez {
     background-color:black;
     color:#fcb900;
+=======
+  .header-content button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     padding: 10px 20px;
     margin-top: 70px;
     margin-left: 100px;
@@ -40,16 +46,24 @@
     cursor: pointer;
     border-radius: 40px;
   }
+<<<<<<< HEAD
  
   .offers {
     text-align: center;
     color: black;
     margin-top: 105px;
+=======
+  .offers {
+    text-align: center;
+    color: black;
+    margin-top: 98px;
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
   }
   
   .offers h2-container {
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     padding-right: 200px;
   }
   
@@ -88,4 +102,14 @@
       margin-left: 110px;
     }
   }
+=======
+    padding-right: 400px;
+
+  }
+  
+  .offers h2 {
+    font-size: 2rem;
+    padding-right: 600px;
+  }
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
   

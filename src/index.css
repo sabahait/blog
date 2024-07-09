@@ -1,5 +1,6 @@
 @tailwind base;
 @tailwind components;
+<<<<<<< HEAD
 @tailwind utilities;
 pre{
     border-radius: 8px;
@@ -10,3 +11,6 @@ pre{
     padding: 15px;
     margin-bottom: 15px;
   }
+=======
+@tailwind utilities;
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6

@@ -1,17 +1,30 @@
+<<<<<<< HEAD
 import React from 'react';
 import productImage from '../../assets/website/photo2.jpg'; // Adjust the path to your image
 import { useNavigate } from 'react-router-dom';
 
 const PricingCard = ({ title, price, description, imageSrc, features, buttonLabel, onClick, optionalFeatures }) => (
   <div className="bg-gray-100 p-6 rounded-lg shadow-md text-center w-82">
+=======
+// src/components/PricingSection.jsx
+
+import React from 'react';
+import productImage from '../../assets/website/photo2.jpg'; // Adjust the path to your image
+const PricingCard = ({ title, price, description, imageSrc, features, buttonLabel, optionalFeatures }) => (
+  <div className=" bg-gray-100 p-6 rounded-lg shadow-md text-center w-80 ">
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
     <h2 className="text-xl font-semibold">{title}</h2>
     <p className="text-2xl font-bold mt-2">{price}</p>
     <p className="text-sm text-gray-500">{description}</p>
     <img src={imageSrc} alt={title} className="my-4 mx-auto" />
+<<<<<<< HEAD
     <button
       className="bg-orange-500 hover:bg-gray-600 text-black py-2 px-4 rounded-full mt-4"
       onClick={onClick}
     >
+=======
+    <button className="bg-yellow-400 hover:bg-yellow-500 text-white py-2 px-4 rounded-full mt-4">
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
       {buttonLabel}
     </button>
     <ul className="ghostwhite py-12 text-left mt-4 space-y-2">
@@ -39,6 +52,7 @@ const PricingCard = ({ title, price, description, imageSrc, features, buttonLabe
 );
 
 const PricingSection = () => {
+<<<<<<< HEAD
   const navigate = useNavigate();
 
   const handleSunEcoClick = () => {
@@ -49,6 +63,8 @@ const PricingSection = () => {
     navigate('/PageSunPrime');
   };
 
+=======
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
   const cardsData = [
     {
       title: 'SunEco',
@@ -64,6 +80,7 @@ const PricingSection = () => {
         'Optimisation des consommation en fonction de la production',
       ],
       buttonLabel: "Découvrir l'offre",
+<<<<<<< HEAD
       onClick: handleSunEcoClick,
       optionalFeatures: [
         'Module de pilotage du ballon d’eau chaude ou Borne de recharge pour véhicule électrique',
@@ -71,6 +88,14 @@ const PricingSection = () => {
     },
     {
       title: 'SunPrime',
+=======
+      optionalFeatures: [
+        'Module de pilotage du ballon d’eau chaude ou Borne de recharge pour véhicule électrique ',
+      ],
+    },
+    {
+      title: 'SunHome',
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
       price: 'A partir de 10 430 €',
       description: 'Le solaire de dernière génération garantie 3D, à performances exceptionnelles et au design élégant.',
       imageSrc: productImage,
@@ -79,12 +104,20 @@ const PricingSection = () => {
         'Micro-onduleur(s) à haut rendement',
         'Suivi de production',
         'Suivi de consommation',
+<<<<<<< HEAD
         'Optimisation de production en cas dombrage',
         'Optimisation des consommations en fonction de la production',
         'Module de pilotage du ballon deau chaude ou Borne de recharge pour véhicule électrique',
       ],
       buttonLabel: "Découvrir l'offre",
       onClick: handleSunPrimeClick,
+=======
+        'Optimisation de production en cas dombrage ',
+        'Optimisation des consommations en fonction de la production ',
+        'Module de pilotage du ballon deau chaude ou Borne de recharge pour véhicule électrique',
+      ],
+      buttonLabel: "Découvrir l'offre",
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
       // No optionalFeatures here
     },
   ];
@@ -101,7 +134,10 @@ const PricingSection = () => {
             imageSrc={card.imageSrc}
             features={card.features}
             buttonLabel={card.buttonLabel}
+<<<<<<< HEAD
             onClick={card.onClick}
+=======
+>>>>>>> 9920cca23a65bcc125df87103e6f9eb544983ca6
             optionalFeatures={card.optionalFeatures}
           />
         ))}
